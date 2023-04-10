@@ -24,9 +24,9 @@ project but frontend part is still not finished .
 - SOLID principles followed.
 - JPA used.
 - MapStruct  used.
-- Rol Based Authentication implement 
-- JWT access and refresh token implemented
-- Stripe implemented
+- Rol Based Authentication implemened.
+- JWT access and refresh token implemented.
+- Stripe implemented.
 ```
 
 ## Frontend (not finished)
