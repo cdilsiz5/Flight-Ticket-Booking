@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://my-db-instance.ct0ikly9u8wl.us-west-2.rds.amazonaws.com:5432/dbflight
+    username: postgres
+    password: renastech
+  jpa:
+    open-in-view: true
+    properties:
+      hibernate :
+        jdbc :
+          lob :
+            non_contextual_creation: true
+      dialect: org :hibernate :dialect :PostgreSQLDialect
+      ddl-auto: update
+---
+management :
+  endpoint :
+    web :
+      exposure :
+        include:
+    health :
+      group :
+        custom :
+          show-components: always
+          show-details: always
+---
+spring :
+  profiles : dev
+  flight:
+    upload-path : storage-dev
+---
+spring :
+  profiles : production
+  flight:
+    upload-path : storage-production
+---
+spring:
+  flight:
+    upload-path : picture-storage
+---
+spring:
+  profiles:
+    active :
+      - production
