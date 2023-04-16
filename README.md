@@ -7,7 +7,7 @@ cd backend
 mvn spring-boot:run
 ```
 
-### Features
+## Features
 ```
 Implemented  API which contains AirportController, PlaneController, FlightExpeditionController, BookingController, 
 PassengerController etc. Crud operations can be done on any api if your role is admin . If you have user role 
@@ -17,12 +17,10 @@ on project , if user buy a flight all the information will be stored to the stri
 React js used also redux , axios , i18 etc a lot of technologies were used on this 
 project but frontend part is still not finished .
 ```
-##Requirements
+## Requirements
 For building and running the application belows are required;
-
- 
 ```
--Spring Boot 2.5.6
+- Spring Boot 2.5.6
 -JDK 8 
 -Maven 3.8.3
 -Swagger UI Documentation
