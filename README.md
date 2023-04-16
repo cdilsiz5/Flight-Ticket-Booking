@@ -17,6 +17,16 @@ on project , if user buy a flight all the information will be stored to the stri
 React js used also redux , axios , i18 etc a lot of technologies were used on this 
 project but frontend part is still not finished .
 ```
+Requirements
+For building and running the application belows are required;
+
+## Spring Boot 2.5.6
+```
+-JDK 8 
+-Maven 3.8.3
+-Swagger UI Documentation
+-Postgresql
+```
 
 ## Backend 
 ```
@@ -28,6 +38,8 @@ project but frontend part is still not finished .
 - JWT access and refresh token implemented.
 - Stripe implemented.
 ```
+## Run Swagger UI Documentation
+```After running the application, just type the local url for Swagger UI in your browser.```
 
 ## Frontend (not finished)
 ```
