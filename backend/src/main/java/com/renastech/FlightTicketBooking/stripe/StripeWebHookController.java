@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StripeWebHookController {
 
-    @Value("whsec_d5d39b412a605ddd5a316c29857de55e729ad224d439467d56bf18c59788b187")
+    @Value("***")
     private String endpointSecret;
 
     @PostMapping("stripe/events")
