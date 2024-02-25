@@ -24,7 +24,7 @@ public class StripeWebHookController {
 
     @PostMapping("stripe/events")
     public String  handleEvent(@RequestBody String payload,@RequestHeader("Stripe-Signature")String sigHeader){
-        Stripe.apiKey = "sk_test_51M5fyKBOWD1rcLcdHjdZj10J51XeLBVuQJOn1TFm3MwwLLrTuZF82E5E8Nk0XwsLSglVNaNShpwYErdR7PjnFM6L00ug2KGiEY";
+        Stripe.apiKey = "";
         if(sigHeader== null) {
             return "";
         }
